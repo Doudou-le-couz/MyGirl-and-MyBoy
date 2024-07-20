@@ -1,0 +1,203 @@
+/* _content/MaCopine/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* styles.css */
+
+body[b-dj7drwwit3] {
+  margin: 0;
+}
+
+header[b-dj7drwwit3] {
+  background: transparent;
+}
+
+#sidebar-points[b-dj7drwwit3] {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  max-width: 35px;
+}
+
+#croix[b-dj7drwwit3] {
+  z-index:10;
+  visibility: visible;
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  max-width:25px;
+}
+
+#Title[b-dj7drwwit3] {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+  left:11%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-items[b-dj7drwwit3][b-dj7drwwit3] {
+  position: absolute;
+  top: 5%;
+  left:75%;
+  transform: translate(-50%, -50%);
+}
+
+nav[b-dj7drwwit3] {
+  background: transparent;
+  height: 100px;
+  display: flex;
+  padding: 0 20px;
+}
+
+nav ul[b-dj7drwwit3] {
+  list-style: none; /* Supprime les puces */
+  padding: 0; /* Supprime le padding par défaut */
+  margin: 0; /* Supprime le margin par défaut */
+}
+
+nav ul li[b-dj7drwwit3] {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+nav ul li button[b-dj7drwwit3] {
+  background-color: transparent;
+  font-style: oblique;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+a[b-dj7drwwit3] {
+  text-decoration: none; /* Enlève le soulignement */
+  color: inherit;
+}
+
+nav h1[b-dj7drwwit3] {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+}
+
+nav ul li button:hover[b-dj7drwwit3] {
+  background-color: #88a7f0;
+}
+
+.content[b-dj7drwwit3] {
+  padding: 20px;
+  text-align: center;
+}
+
+footer[b-dj7drwwit3] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-fluid[b-dj7drwwit3] {
+  position: absolute;
+  bottom: 92%;
+  max-width: 40px;
+  opacity: 0.8;
+}
+
+#Tulipe1[b-dj7drwwit3] {
+  left: 95%;
+  rotate: 35deg;
+}
+
+#Tulipe2[b-dj7drwwit3] {
+  left: 93.5%;
+  rotate: -35deg;
+}
+
+.colorAboutButtons:hover[b-dj7drwwit3] {
+  background-color: rgb(176, 229, 176);
+}
+
+.colorPresButtons:hover[b-dj7drwwit3] {
+  background-color: #bfd2ed;
+}
+
+.sidebar[b-dj7drwwit3] {
+  z-index: -1;
+  visibility: visible;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 0px;
+  border-radius: 16px;
+  padding: 0 0px;
+  border: 1px solid rgb(255 255 255 / 8%);
+  background: #4f6fab52;
+  backdrop-filter: blur(20px);
+  opacity: 0.95;
+  transition: width 1s;
+}
+
+.sidebar ul[b-dj7drwwit3] {
+  z-index: 1000;
+  display: grid;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar ul li[b-dj7drwwit3] {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center items vertically within the container */
+  align-items: center; /* Center items horizontally */
+}
+
+.sidebar ul li button[b-dj7drwwit3] {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  visibility: visible;
+}
+
+.sidebar ul li button:hover[b-dj7drwwit3] {
+  background-color: #88a7f0;
+}
+
+.sidebarAffichage[b-dj7drwwit3] {
+  width: 280px;
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
+  padding: 0 16px;
+}
+
+.btnNTMAffichage[b-dj7drwwit3] {
+  visibility: visible;
+  width: 60px;
+}
+
+.SPH[b-dj7drwwit3] {
+  visibility: hidden;
+}
+
+.CV[b-dj7drwwit3] {
+  visibility: visible;
+}
+
+.HideTitle[b-dj7drwwit3] {
+  visibility: hidden;
+}

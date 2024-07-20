@@ -1,0 +1,202 @@
+﻿/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+/* styles.css */
+
+body {
+  margin: 0;
+}
+
+header {
+  background: transparent;
+}
+
+#sidebar-points {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  max-width: 35px;
+}
+
+#croix {
+  z-index:10;
+  visibility: visible;
+  cursor: pointer;
+  position: absolute;
+  top: 3%;
+  max-width:25px;
+}
+
+#Title {
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  top: 5%;
+  left:11%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-items[b-dj7drwwit3] {
+  position: absolute;
+  top: 5%;
+  left:75%;
+  transform: translate(-50%, -50%);
+}
+
+nav {
+  background: transparent;
+  height: 100px;
+  display: flex;
+  padding: 0 20px;
+}
+
+nav ul {
+  list-style: none; /* Supprime les puces */
+  padding: 0; /* Supprime le padding par défaut */
+  margin: 0; /* Supprime le margin par défaut */
+}
+
+nav ul li {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+nav ul li button {
+  background-color: transparent;
+  font-style: oblique;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none; /* Enlève le soulignement */
+  color: inherit;
+}
+
+nav h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+}
+
+nav ul li button:hover {
+  background-color: #88a7f0;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-fluid {
+  position: absolute;
+  bottom: 92%;
+  max-width: 40px;
+  opacity: 0.8;
+}
+
+#Tulipe1 {
+  left: 95%;
+  rotate: 35deg;
+}
+
+#Tulipe2 {
+  left: 93.5%;
+  rotate: -35deg;
+}
+
+.colorAboutButtons:hover {
+  background-color: rgb(176, 229, 176);
+}
+
+.colorPresButtons:hover {
+  background-color: #bfd2ed;
+}
+
+.sidebar {
+  z-index: -1;
+  visibility: visible;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 0px;
+  border-radius: 16px;
+  padding: 0 0px;
+  border: 1px solid rgb(255 255 255 / 8%);
+  background: #4f6fab52;
+  backdrop-filter: blur(20px);
+  opacity: 0.95;
+  transition: width 1s;
+}
+
+.sidebar ul {
+  z-index: 1000;
+  display: grid;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar ul li {
+  display: flex;
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: center; /* Center items vertically within the container */
+  align-items: center; /* Center items horizontally */
+}
+
+.sidebar ul li button {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 0%;
+  visibility: visible;
+}
+
+.sidebar ul li button:hover {
+  background-color: #88a7f0;
+}
+
+.sidebarAffichage {
+  width: 280px;
+  top: 5px;
+  left: 5px;
+  bottom: 5px;
+  padding: 0 16px;
+}
+
+.btnNTMAffichage {
+  visibility: visible;
+  width: 60px;
+}
+
+.SPH {
+  visibility: hidden;
+}
+
+.CV {
+  visibility: visible;
+}
+
+.HideTitle {
+  visibility: hidden;
+}
